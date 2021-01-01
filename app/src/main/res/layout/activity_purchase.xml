@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_height="match_parent"
+    tools:context=".Purchase">
+
+
+    <LinearLayout
+        android:id="@+id/layout_two"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#050505"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"
+            android:text="...|| Purchase ||..."
+            android:textSize="25sp"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:background="#48B8C6"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Name"
+                    android:textSize="20sp"/>
+                <TextView
+
+                    android:background="#48B8C6"
+                    android:gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Quantity"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:background="#48B8C6"
+                    android:gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Price"
+                    android:textSize="20sp"/>
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_namepurchase"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:hint="Name" />
+
+                <EditText
+                    android:id="@+id/et_quantitypurchase"
+                    android:layout_marginTop="25dp"
+                    android:hint="Quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"/>
+                <EditText
+                    android:id="@+id/et_pricepurchase"
+                    android:layout_marginTop="32dp"
+                    android:hint="Original Price"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/et_btnpurchase"
+                android:typeface="monospace"
+                android:background="#F8E964"
+                android:textAllCaps="false"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginLeft="55dp"
+                android:layout_gravity="center"
+                android:text="Save"
+                android:textSize="18dp"
+                android:paddingTop="9dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="200dp"
+                android:layout_height="45dp"/>
+
+            <Button
+                android:id="@+id/btn_purchaseReportManage"
+                android:typeface="monospace"
+                android:background="#F4E770"
+                android:textAllCaps="false"
+                android:paddingBottom="15dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginLeft="55dp"
+                android:layout_gravity="center"
+                android:text="Report and Manage"
+                android:textSize="15sp"
+                android:paddingTop="14dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

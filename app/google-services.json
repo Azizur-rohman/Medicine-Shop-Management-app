@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "724029917201",
+    "firebase_url": "https://medicineshopmanagementsystem.firebaseio.com",
+    "project_id": "medicineshopmanagementsystem",
+    "storage_bucket": "medicineshopmanagementsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724029917201:android:9ebf2da00a0749ba8089b0",
+        "android_client_info": {
+          "package_name": "com.example.medicineshopmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724029917201-0s1p2co0g0ks11gnf8scj04aftnmhdgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicineshopmanagement",
+            "certificate_hash": "a1c7cedf60a21a80e0fb823c460965c4cda833ec"
+          }
+        },
+        {
+          "client_id": "724029917201-49td3rgvphn9b5e1pva3qqkpmrjspovs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNKZ5fQbsfIGaSd9L9Y5USW_Esyc50Klw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724029917201-49td3rgvphn9b5e1pva3qqkpmrjspovs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724029917201:android:45b2084705e58f4e8089b0",
+        "android_client_info": {
+          "package_name": "com.example.medicineshopmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724029917201-49td3rgvphn9b5e1pva3qqkpmrjspovs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNKZ5fQbsfIGaSd9L9Y5USW_Esyc50Klw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724029917201-49td3rgvphn9b5e1pva3qqkpmrjspovs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MedicineShopManagement</string>
+    <string-array name="Category_name">
+
+        <item> Tablet </item>
+        <item> Suspension </item>
+        <item> Injection </item>
+        <item> Drop  </item>
+        <item> Capsule</item>
+
+    </string-array>
+</resources>
